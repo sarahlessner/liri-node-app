@@ -1,0 +1,29 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "app that gets data from twitter, spotify or omdb based on user input",
+  "main": "keys.js",
+  "scripts": {
+    "test": "touch test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahlessner/liri-node-app.git"
+  },
+  "keywords": [
+    "language",
+    "interpretation",
+    "app"
+  ],
+  "author": "sarah lessner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahlessner/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/sarahlessner/liri-node-app#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.5",
+    "request": "^2.81.0",
+    "twitter": "^1.7.1"
+  }
+}
