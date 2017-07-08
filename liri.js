@@ -2,14 +2,17 @@
 var keys = require("./keys.js");
 
 // console.log(keys);
-var myKeys = keys.twitterKeys;
-// console.log(myKeys);
+var myTwitterKeys = keys.twitterKeys;
+// console.log(myTwitterKeys);
+var mySpotifyKeys = keys.spotifyKeys;
 
 //get user command
-var command = process.argv[2];
+var selection = process.argv;
+var userQuery = selection.slice(3).toString().split(',').join(' ');
+console.log(userQuery);
 
 //function for liri
-liri(command);
+liri(selection[2]);
 function liri(command) {
 
 	if (command === 'my-tweets') {
@@ -17,10 +20,10 @@ function liri(command) {
 		var Twitter = require('twitter');
  
 		var client = new Twitter({
-		  consumer_key: myKeys.consumer_key,
-		  consumer_secret: myKeys.consumer_secret,
-		  access_token_key: myKeys.access_token_key,
-		  access_token_secret: myKeys.access_token_secret
+		  consumer_key: myTwitterKeys.consumer_key,
+		  consumer_secret: myTwitterKeys.consumer_secret,
+		  access_token_key: myTwitterKeys.access_token_key,
+		  access_token_secret: myTwitterKeys.access_token_secret
 		});
 		 
 		var params = {
@@ -41,19 +44,15 @@ function liri(command) {
 		var Spotify = require('node-spotify-api');
  
 		var spotify = new Spotify({
-		  id: '959b9284a5214f33b6ebeafe3ad37ffc',
-		  secret: '45088183ac0c4f3b90f9bc3d82d87568'
+		  id: mySpotifyKeys.id,
+		  secret: mySpotifyKeys.secret
 		});
 
-		var userQuery = process.argv;
 		//if the user didn't enter a song title, set it to 'the sign'
-		if (userQuery.length < 4) {
+		if (userQuery === '')  {
 			userQuery = 'the sign';
-
-		} else {
-			userQuery = userQuery.slice(3).toString().split(',').join(' ');
 		}
-
+		
 		spotify.search({ type: 'track', query: userQuery}, function(err, data) {
 		  if (err) {
 		    return console.log('Error occurred: ' + err);
@@ -78,18 +77,25 @@ function liri(command) {
 
 	} else if (command === 'movie-this') {
 
-		var omdbUrl = "";
+		// var userQuery = process.argv.slice(3).toString().split(',').join(' ');
 
-		request(omdbUrl, function(error, response, body){
-			// If the request is successful
-			if(!error && response.statusCode === 200) {
+		var omdbUrl = "http://www.omdbapi.com/?&t="+userQuery+"&apikey=40e9cece";
 
-			// Title, IMDB, Rotten Tomatoes Rating, Country produced, language, plot, actors
-
-			// If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
-
-			}
-		});
+		var request = require('request');
+			request(omdbUrl, function (error, response, body) {
+			  console.log('error:', error); // Print the error if one occurred 
+			  // console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received 
+			  // console.log('body:', JSON.parse(body)); 
+			  var movieInfo = JSON.parse(body);
+			  console.log("Title: "+movieInfo.Title);
+			  console.log("Year: "+movieInfo.Year);
+			  console.log("IMDB Rating: "+movieInfo.Ratings[0].Value);
+			  console.log("Rotten Tomatoes Rating: "+movieInfo.Ratings[1].Value);
+			  console.log("Country: "+movieInfo.Country);
+			  console.log("Language: "+movieInfo.Language);
+			  console.log("Plot: "+movieInfo.Plot);
+			  console.log("Actors: "+movieInfo.Actors);
+			});
 		
 	} else if (command === 'do-what-it-says') {
 		
@@ -100,7 +106,11 @@ function liri(command) {
 			return console.log(error);
 			}
 		console.log(data);
-			// liri(data[0]);
+		var dataArray = data.split(",");
+		userQuery = dataArray[1];
+		console.log(dataArray);
+		console.log(userQuery);
+			liri(dataArray[0]);
 
 		});
 	};
