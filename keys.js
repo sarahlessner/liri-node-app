@@ -12,8 +12,3 @@ exports.spotifyKeys = {
 	secret: '45088183ac0c4f3b90f9bc3d82d87568'
 }
 
-//SPOTIFY:
-// Client ID
-// 959b9284a5214f33b6ebeafe3ad37ffc
-// Client Secret
-// 45088183ac0c4f3b90f9bc3d82d87568
