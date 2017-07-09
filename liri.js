@@ -10,19 +10,20 @@ var mySpotifyKeys = keys.spotifyKeys;
 
 //get user command
 var selection = process.argv[2];
-//get query to search (if applicable)
+//get query to search (if applicable - for spotify and movie search)
 var userQuery = process.argv.slice(3).toString().split(',').join(' ');
 // console.log(userQuery);
 
 //function for liri
 liri(selection);
 function liri(command) {
-	//log selection/userQuery to log.txt
-	fs.appendFile("log.txt","---"+selection+" - "+userQuery+"---"+'\n', function(err) {
-    			if (err) {
-      			return console.log(err);
-    			}
-			});
+	//write selection & userQuery variables to log.txt here so they append to log only once per search
+	fs.appendFile("log.txt",selection+": "+userQuery+'\n', function(err) {
+		if (err) {
+			return console.log(err);
+			}
+		});
+	//if selection = my-tweets, etc
 	if (command === 'my-tweets') {
 		//code from twitter npm
 		var Twitter = require('twitter');
@@ -38,21 +39,15 @@ function liri(command) {
 			screen_name: 'Iwant5puppies', 
 			count: 20
 		};
-		//append user command
 		
 		client.get('statuses/user_timeline', params, function(error, tweets, response) {
 
 			if (!error) {
 			  	for (var i = 0; i < tweets.length; i++){
 				    var myTweets = (tweets[i].created_at+" "+tweets[i].text+'\n');
-				    console.log(myTweets);
-				    //append twitter data
-					fs.appendFile("log.txt",myTweets, function(err) {
-		    			if (err) {
-		      			return console.log(err);
-		    			}
-		    			
-					});
+					//display tweets to console and call function to log them to log.txt
+					console.log(myTweets);
+					logData(myTweets);
 				}	
 			}
 		  else
@@ -90,14 +85,9 @@ function liri(command) {
 					var album = ("Album: "+trackInfo.album.name);
 					//variable for logging data to console and log.txt
 					var songLog = (artist+'\n'+song+'\n'+preview+'\n'+album+'\n'+'---'+'\n');
+					//display to console and call function to log to log.txt
 					console.log(songLog);
-					//append to log file
-					fs.appendFile("log.txt", songLog, function(err) {
-	    			if (err) {
-	      			return console.log(err);
-	    			}
-				});
-					
+					logData(songLog);	
 				}
 			}
 		});
@@ -120,15 +110,11 @@ function liri(command) {
 				var plot = ("Plot: "+movieInfo.Plot);
 				var actors = ("Actors: "+movieInfo.Actors);
 				//store log of movie data for console and text
-				var movieLog = (title+'\n'+year+'\n'+imdb+'\n'
-					+rotten+'\n'+country+'\n'+language+'\n'+plot+'\n'+actors+'\n'+'---'+'\n');
+				var movieLog = (title+'\n'+year+'\n'+imdb+'\n' +rotten+'\n'+country+'\n'+
+					language+'\n'+plot+'\n'+actors+'\n'+'---'+'\n');
+				//display to console and call function to log to log.txt
 				console.log(movieLog);
-				//append movie data
-				fs.appendFile("log.txt", movieLog, function(err) {
-				if (err) {
-					return console.log(err);
-					}
-				});
+				logData(movieLog);
 			});
 			  
 	  //runs pre written command from text file
@@ -143,13 +129,24 @@ function liri(command) {
 		var dataArray = data.split(",");
 		//store song to search from the file
 		userQuery = dataArray[1];
-			//command 'spotify-this-song' from text file passed to liri function
+			//command 'spotify-this-song' from text file passed to execute liri function
 			liri(dataArray[0]);
 
 		});
+	} else {
+		console.log("invalid search");
+		logData("invalid search"+'\n');
 	};
 
 };
+//function to append data returned from queries to log.txt
+function logData(x) {
+	fs.appendFile("log.txt",x, function(err) {
+		if (err) {
+			return console.log(err);
+			}
+		});
+}
 
 
 

@@ -1,105 +1,47 @@
----spotify-this-song - play it right---
-Artist: Sylvan Esso
-Song Name: Play It Right
-Preview Song: https://p.scdn.co/mp3-preview/14ac32ffc478a1488ed3459c0f3e1f6c4beb4b32?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Sylvan Esso
+spotify-this-song: boyscoutn
+Artist: Menomena
+Song Name: Boyscout'n
+Preview Song: https://p.scdn.co/mp3-preview/23a9959342f4316055f3e311fc0cca8d3c4b3422?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: Friend And Foe
 ---
-Artist: Frank Vieira
-Song Name: Play It by Beer
-Preview Song: https://p.scdn.co/mp3-preview/27c02c5e2fcbcbfaa92b9b15ed925e0166c74e00?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Right Here
+Artist: Menomena
+Song Name: Boyscout'n
+Preview Song: https://p.scdn.co/mp3-preview/5a7f5b54f8119c13b6c0b6c5d0c44ced8706e6e0?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: Friend And Foe
 ---
-Artist: Kracker
-Song Name: Play it Right (90 BPM)
-Preview Song: https://p.scdn.co/mp3-preview/2a4418e4118f26bb348ccefa48ad0e21ce36bff6?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Play it Right (90 BPM)
+movie-this: i heart huckabees
+Title: I Heart Huckabees
+Year: 2004
+IMDB Rating: 6.7/10
+Rotten Tomatoes Rating: 62%
+Country: USA, UK, Germany
+Language: English, French, Spanish
+Plot: A husband-and-wife team play detective, but not in the traditional sense. Instead, the happy duo helps others solve their existential issues, the kind that keep you up at night, wondering what it all means.
+Actors: Jason Schwartzman, Isabelle Huppert, Dustin Hoffman, Lily Tomlin
 ---
-Artist: Say It, Play It
-Song Name: St. Lucia - What's your jam right now?
-Preview Song: https://p.scdn.co/mp3-preview/b38dd022c4b7a7fafd3569f5cb17d57ec04a19bb?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Say It, Play It - Buzzbands
----
-Artist: The Cosmic Situation
-Song Name: Play It Off
-Preview Song: https://p.scdn.co/mp3-preview/0a5698f870a77ca4f43ba4897b77b057e825aa5f?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Right Here
----
-Artist: Bibi
-Song Name: Play It Right
-Preview Song: https://p.scdn.co/mp3-preview/a7a2da2cdfbb67fe90e5709b92a074ca735a4109?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Badboyjoe Freestyle New Generation Vol.2
----
-Artist: Delinquent
-Song Name: Play It Right
-Preview Song: https://p.scdn.co/mp3-preview/0662d45cd5f29c264be226101dd8545d2b84e64f?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Melodic Battlefield, Pt. 1
----
-Artist: Andy G & Tobiak
-Song Name: Play It Right
-Preview Song: https://p.scdn.co/mp3-preview/b81ff0d667016070813e82e6c90c213be81b0226?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Get Out At Night
----
-Artist: No Regular Play
-Song Name: Keep It Right
-Preview Song: https://p.scdn.co/mp3-preview/b9e1f61abf77921132d3ecca2968b4c2d4e2d746?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Endangered Species
----
-Artist: Bibi
-Song Name: Play It Right
-Preview Song: https://p.scdn.co/mp3-preview/9af8bcefdb3ef9344fa69c9e41bebcef2697c1dd?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Badboyjoe's Freestyle New Generation Megamix
----
-Artist: Say It, Play It
-Song Name: Wild Belle - What's your jam right now?
-Preview Song: https://p.scdn.co/mp3-preview/65a3ad78b2e364831adbdc19699fffc1a3a78aab?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Say It, Play It - Buzzbands
----
-Artist: Just The Dust
-Song Name: Play It Right
-Preview Song: https://p.scdn.co/mp3-preview/94490dcce9f3a0f28232ec74ce799f61c781e3c7?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Rattle Of Stones
----
-Artist: Matt Easton & Matt Persin
-Song Name: Hit It Right
-Preview Song: https://p.scdn.co/mp3-preview/0674f394afe86a07c8c9cb40d8d324cd6fdfbf37?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Word of Mouth or Play It Forward
----
-Artist: Joy Electric
-Song Name: Say It Right
-Preview Song: null
-Album: Favorites At Play
----
-Artist: Judi Cranston
-Song Name: Play It Right
-Preview Song: https://p.scdn.co/mp3-preview/69e7672d323e33e7281b24860756bbfa6c7f092e?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Shake, Shake, Rattle and Rock n' Roll
----
-Artist: Adria Kain
-Song Name: Play It Right
-Preview Song: https://p.scdn.co/mp3-preview/fbfeec47c288d00da8a565e2f83d948d6e5ce4bb?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Identity
----
-Artist: No Regular Play
-Song Name: Keep It Right - Tanner Ross Remix
-Preview Song: https://p.scdn.co/mp3-preview/baffbbf556e0e808f3d2a44bb1bf019c2d4959ae?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Deja Vu, Vol. 1
----
-Artist: Elmo Ramirezo
-Song Name: Play it Right
-Preview Song: https://p.scdn.co/mp3-preview/fa17b14606a8afa2507cf8d9964457e63785088e?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Classic Gypsy Jazz Volume 2
----
-Artist: Lil Ric & Laroo
-Song Name: Play It Right
-Preview Song: https://p.scdn.co/mp3-preview/5c64b7c32e28a605e76886215fda1b3e70f6e847?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Different Reality
----
-Artist: Walter Whitney
-Song Name: Play It Right!
-Preview Song: https://p.scdn.co/mp3-preview/8cae9c8627974157bbc0106f5946151823634b7a?cid=959b9284a5214f33b6ebeafe3ad37ffc
-Album: Phantom Worlds
----
----spotify-this-song - ---
+my-tweets: 
+Mon Jul 03 00:07:09 +0000 2017 RT @DaiIyPuppies: look at those eyes 😍🐶 https://t.co/kYlxAOOn3h
+Mon Jul 03 00:07:04 +0000 2017 RT @DaiIyPuppies: travel buddies 🐶🌲🌎 https://t.co/ZF3K1FCwdU
+Mon Jul 03 00:06:41 +0000 2017 RT @DaiIyPuppies: when mom says dinner is ready  https://t.co/Rtgkwz4JCt
+Mon Jul 03 00:06:29 +0000 2017 RT @DaiIyPuppies: Prison break! https://t.co/95W0lFkObS
+Mon Jul 03 00:06:13 +0000 2017 RT @DaiIyPuppies: 😍 https://t.co/VVQE8o8sB1
+Mon Jul 03 00:05:36 +0000 2017 RT @DaiIyPuppies: incase you're having a bad day https://t.co/MP7nGPbtZp
+Mon Jul 03 00:02:36 +0000 2017 RT @BestOfShepherds: That look  https://t.co/jmeg1uR5BX
+Mon Jul 03 00:01:00 +0000 2017 RT @TheDaiIyPuppy: Awww "feed me" https://t.co/UXlBD38Rqm
+Mon Jul 03 00:00:28 +0000 2017 RT @TheDaiIyPuppy: What are you trying to say little guy?  https://t.co/hpT00USbnH
+Mon Jul 03 00:00:50 +0000 2017 RT @TheDaiIyPuppy: awwwww, sweetest pic ever! https://t.co/f3fSzWGuqB
+Sun Jul 02 23:59:59 +0000 2017 RT @TheDaiIyPuppy: Adorable! I want this puppy :) https://t.co/gFt6mGIMLu
+Sun Jul 02 23:59:54 +0000 2017 RT @llovmydog: Police dog on his first day. https://t.co/rM20ZodiFa
+Sun Jul 02 23:59:40 +0000 2017 RT @TheDaiIyPuppy: So Adorable! &lt;3 https://t.co/X9wvCBnOrJ
+Sun Jul 02 23:59:22 +0000 2017 RT @TheDaiIyPuppy: Awww,  Caption this photo. https://t.co/F3wTy25PMc
+Sun Jul 02 23:59:32 +0000 2017 RT @TheDaiIyPuppy: Ready to travel https://t.co/RTWRCuDfPd
+Sun Jul 02 23:59:14 +0000 2017 RT @TheDaiIyPuppy: 1.2.3.Pose!  https://t.co/okfKQxAOXh
+Sun Jul 02 23:58:52 +0000 2017 RT @TheDaiIyPuppy: Why so sad?  https://t.co/3aWLno7bb3
+Sun Jul 02 23:59:08 +0000 2017 RT @TheDaiIyPuppy: Chocolate Dog!  https://t.co/BttB6FHJ3X
+Sun Jul 02 23:58:36 +0000 2017 RT @TheDaiIyPuppy: Do you wanna build a snowman?  https://t.co/VCuCT1ATK3
+Sun Jul 02 23:58:25 +0000 2017 RT @TheDaiIyPuppy: It's bath time :) https://t.co/oYiTJfdqTZ
+mytweets: 
+invalid searchspotify-this-song: 
 Artist: Ace of Base
 Song Name: The Sign
 Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=959b9284a5214f33b6ebeafe3ad37ffc
@@ -115,34 +57,136 @@ Song Name: The Sign
 Preview Song: https://p.scdn.co/mp3-preview/5ca0168d6b58e0f993b2b741af90ecc7c9b16893?cid=959b9284a5214f33b6ebeafe3ad37ffc
 Album: Greatest Hits
 ---
----my-tweets - ---
-Mon Jul 03 00:07:09 +0000 2017 RT @DaiIyPuppies: look at those eyes 😍🐶 https://t.co/kYlxAOOn3h
-Mon Jul 03 00:07:04 +0000 2017 RT @DaiIyPuppies: travel buddies 🐶🌲🌎 https://t.co/ZF3K1FCwdU
-Mon Jul 03 00:06:41 +0000 2017 RT @DaiIyPuppies: when mom says dinner is ready  https://t.co/Rtgkwz4JCt
-Mon Jul 03 00:06:29 +0000 2017 RT @DaiIyPuppies: Prison break! https://t.co/95W0lFkObS
-Mon Jul 03 00:06:13 +0000 2017 RT @DaiIyPuppies: 😍 https://t.co/VVQE8o8sB1
-Mon Jul 03 00:05:36 +0000 2017 RT @DaiIyPuppies: incase you're having a bad day https://t.co/MP7nGPbtZp
-Mon Jul 03 00:02:36 +0000 2017 RT @BestOfShepherds: That look  https://t.co/jmeg1uR5BX
-Mon Jul 03 00:01:00 +0000 2017 RT @TheDaiIyPuppy: Awww "feed me" https://t.co/UXlBD38Rqm
-Mon Jul 03 00:00:50 +0000 2017 RT @TheDaiIyPuppy: awwwww, sweetest pic ever! https://t.co/f3fSzWGuqB
-Mon Jul 03 00:00:28 +0000 2017 RT @TheDaiIyPuppy: What are you trying to say little guy?  https://t.co/hpT00USbnH
-Sun Jul 02 23:59:59 +0000 2017 RT @TheDaiIyPuppy: Adorable! I want this puppy :) https://t.co/gFt6mGIMLu
-Sun Jul 02 23:59:54 +0000 2017 RT @llovmydog: Police dog on his first day. https://t.co/rM20ZodiFa
-Sun Jul 02 23:59:40 +0000 2017 RT @TheDaiIyPuppy: So Adorable! &lt;3 https://t.co/X9wvCBnOrJ
-Sun Jul 02 23:59:32 +0000 2017 RT @TheDaiIyPuppy: Ready to travel https://t.co/RTWRCuDfPd
-Sun Jul 02 23:59:22 +0000 2017 RT @TheDaiIyPuppy: Awww,  Caption this photo. https://t.co/F3wTy25PMc
-Sun Jul 02 23:59:08 +0000 2017 RT @TheDaiIyPuppy: Chocolate Dog!  https://t.co/BttB6FHJ3X
-Sun Jul 02 23:59:14 +0000 2017 RT @TheDaiIyPuppy: 1.2.3.Pose!  https://t.co/okfKQxAOXh
-Sun Jul 02 23:58:52 +0000 2017 RT @TheDaiIyPuppy: Why so sad?  https://t.co/3aWLno7bb3
-Sun Jul 02 23:58:36 +0000 2017 RT @TheDaiIyPuppy: Do you wanna build a snowman?  https://t.co/VCuCT1ATK3
-Sun Jul 02 23:58:25 +0000 2017 RT @TheDaiIyPuppy: It's bath time :) https://t.co/oYiTJfdqTZ
----movie-this - i heart huckabees---
-Title: I Heart Huckabees
-Year: 2004
-IMDB Rating: 6.7/10
-Rotten Tomatoes Rating: 62%
-Country: USA, UK, Germany
-Language: English, French, Spanish
-Plot: A husband-and-wife team play detective, but not in the traditional sense. Instead, the happy duo helps others solve their existential issues, the kind that keep you up at night, wondering what it all means.
-Actors: Jason Schwartzman, Isabelle Huppert, Dustin Hoffman, Lily Tomlin
+do-what-it-says: 
+do-what-it-says: I Want it That Way
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+Preview Song: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: The Hits--Chapter One
+---
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+Preview Song: https://p.scdn.co/mp3-preview/f9f504a705fcaaf2f24b004b629725451014ad6c?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: The Essential Backstreet Boys
+---
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+Preview Song: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: Millennium
+---
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+Preview Song: https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: 90 Sweet 90s Hits!
+---
+Artist: Glee Cast
+Song Name: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+Preview Song: https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+---
+Artist: Anthem Lights
+Song Name: I Want It That Way
+Preview Song: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: Covers Part IV
+---
+Artist: Dynamite Boy
+Song Name: I Want It That Way
+Preview Song: null
+Album: Punk Goes Pop
+---
+Artist: "Weird Al" Yankovic
+Song Name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Preview Song: https://p.scdn.co/mp3-preview/bc986c27b684adbc13837a5de25f14d4dbe0cc3c?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: Poodle Hat
+---
+Artist: Brittany Howard
+Song Name: I Want It That Way
+Preview Song: https://p.scdn.co/mp3-preview/46c088f198268278c8498768e50f1423459b2ed7?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: I Want It That Way
+---
+Artist: Kyle Olthoff
+Song Name: I Want It That Way
+Preview Song: https://p.scdn.co/mp3-preview/101776fe4fc24aac543f6b4c5aa4273ac9d2dcc4?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: I Want It That Way
+---
+Artist: Boyce Avenue
+Song Name: I Want It That Way
+Preview Song: https://p.scdn.co/mp3-preview/764f1dcb8c9a9cec099cc361cb388f931bf023d3?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: New Acoustic Sessions, Vol. 3
+---
+Artist: "Weird Al" Yankovic
+Song Name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Preview Song: https://p.scdn.co/mp3-preview/5632d8e302d70afaa8f79c962aa4b2032a45b3ef?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: The Essential "Weird Al" Yankovic
+---
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+Preview Song: https://p.scdn.co/mp3-preview/c9302062adf4f59e60335f30c7ca46b487a267fb?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: NOW That's What I Call 90s Pop
+---
+Artist: Landon Austin & Julia Sheer
+Song Name: I Want It That Way
+Preview Song: https://p.scdn.co/mp3-preview/e777be5446dc3df34abc2eaec241edb5a590976c?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: I Want It That Way
+---
+Artist: Steel Panther
+Song Name: I Want It That Way
+Preview Song: null
+Album: I Want It That Way
+---
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+Preview Song: https://p.scdn.co/mp3-preview/adf2485de3f3f375593b5307a792e8d8e6f19794?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: NKOTBSB
+---
+Artist: Scott Bradlee's Postmodern Jukebox
+Song Name: I Want It That Way
+Preview Song: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: Selfies on Kodachrome
+---
+Artist: Jason Chen
+Song Name: I Want It That Way
+Preview Song: https://p.scdn.co/mp3-preview/cba62099b5bec2bc9244aaeaba0422556f6df04e?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: I Want It That Way
+---
+Artist: Scott Bradlee's Postmodern Jukebox
+Song Name: I Want It That Way
+Preview Song: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: PMJ Is For Lovers: The Love Song Collection
+---
+Artist: FROIDZ
+Song Name: I Want It That Way
+Preview Song: https://p.scdn.co/mp3-preview/fdf46a47cbaf363ff9379b4222a74d1ba8291b67?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: I Want It That Way
+---
+spotify-this-song: judy and the dream of horses
+Artist: Belle & Sebastian
+Song Name: Judy and the Dream of Horses
+Preview Song: https://p.scdn.co/mp3-preview/89656a15b22dbf8b6ff4e07362475116825d9b20?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: If You’re Feeling Sinister
+---
+Artist: Belle & Sebastian
+Song Name: Judy And The Dream Of Horses
+Preview Song: https://p.scdn.co/mp3-preview/823bad51a4041302521594562040155bd5b459c4?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: The BBC Sessions
+---
+Artist: MESH
+Song Name: Judy And The Dream Of Horses
+Preview Song: https://p.scdn.co/mp3-preview/efcb76776eb23cc4527a8cff882edec502dfc804?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: Under The Covers
+---
+Artist: MESH
+Song Name: Judy And The Dream Of Horses
+Preview Song: https://p.scdn.co/mp3-preview/ebeedcc79bf7ae575034217e5a0d9d1322e948bb?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: Under The Covers
+---
+Artist: The Tigermilks
+Song Name: Judy and the Dream of Horses
+Preview Song: https://p.scdn.co/mp3-preview/1aa3c3c4a85747dd38df46bac08efb457fdc2c55?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: We Don't Stand a Chance
+---
+Artist: Belle & Sebastian
+Song Name: Judy and the Dream of Horses
+Preview Song: https://p.scdn.co/mp3-preview/5a81342b3c246a7b0d70dcb131a1836fb02c6e91?cid=959b9284a5214f33b6ebeafe3ad37ffc
+Album: If You’re Feeling Sinister
 ---
