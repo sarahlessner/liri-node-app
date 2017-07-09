@@ -24,7 +24,7 @@ function liri(command) {
 	if (command === 'my-tweets') {
 		//code from twitter npm
 		var Twitter = require('twitter');
- 
+ 		//twitter keys
 		var client = new Twitter({
 		  consumer_key: myTwitterKeys.consumer_key,
 		  consumer_secret: myTwitterKeys.consumer_secret,
@@ -40,20 +40,21 @@ function liri(command) {
 		client.get('statuses/user_timeline', params, function(error, tweets, response) {
 
 			if (!error) {
+				//loop through the 20 tweets returned
 			  	for (var i = 0; i < tweets.length; i++){
+			  		//display only when tweet was created and text of tweet
 				    var myTweets = (tweets[i].created_at+" "+tweets[i].text+'\n');
 					//display tweets to console and call function to log them to log.txt
 					console.log(myTweets);
 					logData(myTweets);
 				}	
-			}
-		  else
-		  	console.log(error);
+			} else
+				console.log(error);
 		});
 	} else if (command === 'spotify-this-song') {
-
+		//code to search spotify from npm
 		var Spotify = require('node-spotify-api');
- 
+ 		//spotify keys
 		var spotify = new Spotify({
 		  id: mySpotifyKeys.id,
 		  secret: mySpotifyKeys.secret
@@ -63,12 +64,12 @@ function liri(command) {
 		if (userQuery === '')  {
 			userQuery = 'the sign';
 		}
-		
+		//search spotify by track using info from command
 		spotify.search({ type: 'track', query: userQuery}, function(err, data) {
 		  if (err) {
 		    return console.log('Error occurred: ' + err);
 			}
-
+			//loop through track data returned from API
 			for (var i = 0; i < data.tracks.items.length; i++) {
 				var trackInfo = data.tracks.items[i];
 				if ((userQuery === 'the sign') && (trackInfo.artists[0].name !== 'Ace of Base')) {
@@ -92,7 +93,7 @@ function liri(command) {
 	} else if (command === 'movie-this') {
 
 		var omdbUrl = "http://www.omdbapi.com/?&t="+userQuery+"&apikey=40e9cece";
-
+		//code from request npm to access omdb API
 		var request = require('request');
 			request(omdbUrl, function (error, response, body) {
 				console.log('error:', error); // Print the error if one occurred 
@@ -136,7 +137,7 @@ function liri(command) {
 	};
 
 };
-//function to append data returned from queries to log.txt
+//function to append data to log.txt
 function logData(x) {
 	fs.appendFile("log.txt",x, function(err) {
 		if (err) {
