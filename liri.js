@@ -17,12 +17,9 @@ var userQuery = process.argv.slice(3).toString().split(',').join(' ');
 //function for liri
 liri(selection);
 function liri(command) {
-	//write selection & userQuery variables to log.txt here so they append to log only once per search
-	fs.appendFile("log.txt",selection+": "+userQuery+'\n', function(err) {
-		if (err) {
-			return console.log(err);
-			}
-		});
+	//write selection & userQuery variables to log.txt here
+	logData(selection+": "+userQuery+'\n');
+
 	//if selection = my-tweets, etc
 	if (command === 'my-tweets') {
 		//code from twitter npm
