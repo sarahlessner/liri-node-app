@@ -1,18 +1,14 @@
 
 var fs = require("fs");
-//code to get data from keys.js
 var keys = require("./keys.js");
 
-// console.log(keys);
 var myTwitterKeys = keys.twitterKeys;
-// console.log(myTwitterKeys);
 var mySpotifyKeys = keys.spotifyKeys;
 
 //get user command
 var selection = process.argv[2];
 //get query to search (if applicable - for spotify and movie search)
 var userQuery = process.argv.slice(3).toString().split(',').join(' ');
-// console.log(userQuery);
 
 //function for liri
 liri(selection);
@@ -31,12 +27,12 @@ function liri(command) {
 		  access_token_key: myTwitterKeys.access_token_key,
 		  access_token_secret: myTwitterKeys.access_token_secret
 		});
-		 
+
 		var params = {
-			screen_name: 'Iwant5puppies', 
+			screen_name: 'Iwant5puppies',
 			count: 20
 		};
-		
+
 		client.get('statuses/user_timeline', params, function(error, tweets, response) {
 
 			if (!error) {
@@ -47,7 +43,7 @@ function liri(command) {
 					//display tweets to console and call function to log them to log.txt
 					console.log(myTweets);
 					logData(myTweets);
-				}	
+				}
 			} else
 				console.log(error);
 		});
@@ -74,7 +70,7 @@ function liri(command) {
 				var trackInfo = data.tracks.items[i];
 				if ((userQuery === 'the sign') && (trackInfo.artists[0].name !== 'Ace of Base')) {
 					//do nothing - want to prevent matches from artists that are not ace of base
-				} 
+				}
 				else {
 					//store track info from search
 					var artist = ("Artist: "+trackInfo.artists[0].name);
@@ -85,7 +81,7 @@ function liri(command) {
 					var songLog = (artist+'\n'+song+'\n'+preview+'\n'+album+'\n'+'---'+'\n');
 					//display to console and call function to log to log.txt
 					console.log(songLog);
-					logData(songLog);	
+					logData(songLog);
 				}
 			}
 		});
@@ -96,7 +92,7 @@ function liri(command) {
 		//code from request npm to access omdb API
 		var request = require('request');
 			request(omdbUrl, function (error, response, body) {
-				console.log('error:', error); // Print the error if one occurred 
+				console.log('error:', error); // Print the error if one occurred
 			  //store relevant movie info returned from search
 				var movieInfo = JSON.parse(body);
 				var title = ("Title: "+movieInfo.Title);
@@ -114,7 +110,7 @@ function liri(command) {
 				console.log(movieLog);
 				logData(movieLog);
 			});
-			  
+
 	  //runs pre written command from text file
 	} else if (command === 'do-what-it-says') {
 		//reads command from text file to run spotify search
@@ -145,6 +141,3 @@ function logData(x) {
 			}
 		});
 }
-
-
-
